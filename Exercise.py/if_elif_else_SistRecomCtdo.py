@@ -7,12 +7,16 @@
 
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 idade = int(input("Digite sua idade: "))
-if idade < 13:
-    print("Recomendamos desenhos animados e filmes educativos.")
+if idade < 5:
+    print("Recomendamos desenhos animados e educativos.")
+elif idade < 10:    
+    print("Recomendamos desenhos animados e filmes educativo.")
+elif idade < 13:
+    print("Recomendamos desenhos animados e filmes educativo de classificação Livre.")
 elif idade < 18:
     print("Recomendamos séries adolescentes e filmes de aventura")
 elif idade < 60:
     print("Recomendamos dramas, documentários e thrillers.")
 else:
-
     print("Recomendamos clássicos e filmes com temáticas históricas.")    
+
